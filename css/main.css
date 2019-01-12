@@ -74,6 +74,10 @@ img {
     margin: 2rem 0 1.4rem;
   }
 
+  section {
+    text-align: center;
+  }
+
   .text, .img-flex {
     display: inline-block;
     vertical-align: middle;
@@ -81,13 +85,27 @@ img {
 
   .text {
     width: 42%;
-    margin-left: 1.125rem;
+    text-align: left;
   }
 
   .img-flex {
     width: 50%;
-    margin-left: 1.125em;
+    margin-left: 1.125rem;
     padding-top: 1.125rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .img-flex {
+    margin-left: 2rem;
+    padding-top: 2rem;
   }
 
 }
