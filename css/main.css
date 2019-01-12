@@ -45,6 +45,10 @@ a {
   padding: .5rem;
 }
 
+a:hover {
+  background-color: #000;
+}
+
 .img-flex {
   display: block;
   width: 100%;
@@ -106,6 +110,28 @@ img {
   .img-flex {
     margin-left: 2rem;
     padding-top: 2rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  section {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text {
+    width: 38%;
+  }
+
+  .img-flex {
+    width: 46%;
   }
 
 }
